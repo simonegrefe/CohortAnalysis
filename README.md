@@ -63,3 +63,88 @@ The final curated analytical tables are presented in a **Databricks dashboard**,
 ![Dashboard preview](databricks_dashboard.png)
 
 
+## 🔍 Key Takeaways
+
+### 1. Strong Retention in Later Cohorts 
+
+- Later cohorts, particularly **April to June**, exhibit **very strong retention performance**.
+- The **June cohort** stands out with a **100% retention rate across every time threshold**, making it the strongest-performing cohort overall.
+- There is a **notable upward trend in short-term customer retention** when comparing early to later cohorts. The **January cohort** shows a relatively weak repeat-purchase rate of **59% in the first month** while **all customers in the June cohort made a second purchase within a short time**, indicating exceptionally high early engagement.
+
+### 2. Repeat-Purchase Behaviour Depends on Both Time and Order Frequency
+
+- Although overall repeat behaviour is strong, the **repeat-purchase rate decreases as the total number of orders increases**.
+- This effect must be interpreted in the context of different time windows across cohorts. While **May and June cohorts** have had **less time** since their first purchase, naturally limiting the number of possible follow-up orders. In comparison earlier cohorts (**January–March**) had more time to progress through multiple purchase cycles and show more stable, long-term behaviour — with **repeat-purchase rates above 80% for the 3rd and 4th order**.
+
+### 3. Declining New Customer Acquisition Throughout the Year
+
+- **January is the largest cohort**, with **66 new customers**, significantly outperforming the rest of the year.
+- After January, the number of newly acquired customers **declines continuously** month over month.
+- From **July onward, no new customers were acquired**, highlighting a sharp drop in acquisition performance in the second half of the year.
+
+
+## 💡 Recommendations
+
+### 1. Extend the Cohort Analysis Across Multiple Years
+
+To better understand the significant acquisition drop after July and the exceptional short-term retention of the May and June cohorts, a **multi-year cohort analysis** (ideally at least 3 years) should be conducted. This broader time window will help determine:
+
+- Whether the acquisition decline is **structural, seasonal, or campaign-related**.
+- Whether the unusually **strong 1-month retention in the May/June cohorts has occurred in past years** or was triggered by specific **promotions, market conditions, or seasonal behaviour**.
+
+Extending the analysis will provide more reliable trend detection and improve long-term strategic planning.
+
+### 2. Strengthen Marketing Investment to Counter Acquisition Decline
+
+The sharp fall in customer acquisition —culminating in **no new customers after July**— highlights a need to reinforce marketing activities and lead-generation channels.
+Recommended measures include:
+
+- **Increased marketing spend** during historically weak periods.
+- **Targeted campaigns** aimed at revitalizing acquisition momentum.
+- **Promotional incentives** such as discounts for second purchases to encourage early engagement and repeat behaviour.
+
+### 3. Invest Strategically in New Customer Acquisition
+
+Although acquiring customers is costly, the data indicates an urgent need to **rebuild a consistent acquisition funnel**, particularly given the complete stop in new customers from July onward.
+Strategic acquisition efforts should focus on:
+
+- Channels with historically strong performance.
+- Target groups resembling the high-performing later cohorts (April–June).
+- Optimizing conversion paths to stabilize monthly customer intake.
+
+### 4. Leverage High-Performing Cohorts to Improve Onboarding & Engagement
+
+Early 2024 cohorts (January–March) and the high-performing later cohorts (May–June) exhibit distinct behavioural patterns that can be used to optimize the onboarding process.
+Recommendations include:
+
+- Analysing touchpoints, communications, and promotions that contributed to the strong early behaviour in the May/June cohorts.
+- Applying these findings to future onboarding strategies to improve early retention and accelerate the second purchase cycle.
+
+
+
+
+etl-cohort-analysis/
+│
+├── raw-data/
+│      ├── raw_customers_2024.csv
+│     
+├── sql_transformations/
+│      ├── bronze_load.sql
+│      ├── silver_cohort_analysis.sql
+│      └── gold_retention_repeat_tables.sql
+│
+├── datasets/
+│      ├── cohort_analysis.csv
+│      ├── retention_rate.csv
+│      ├── repeat_purchase_rates.csv
+│      └── cohort_size.csv
+│
+├── dashboard/
+│      └── databricks_dashboard.pdf
+│
+├── README.md
+│
+└── .gitignore
+
+
+
