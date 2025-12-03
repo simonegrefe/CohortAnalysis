@@ -60,6 +60,6 @@ The final curated analytical tables are presented in a **Databricks dashboard**,
 
 ## 📊 Visualization
 
-![Dashboard preview](
+![Dashboard preview](databricks_dashboard.png)
 
 
