@@ -137,7 +137,7 @@ cohort-analysis/
 │
 ├── README.md
 │
-└── .gitignore
+└── .gitattributes
 ```
 
 ## 🪪 License
