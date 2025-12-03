@@ -2,7 +2,7 @@
 
 ## 🧾 Project Overview
 
-This project provides an end-to-end data pipeline and analytical framework designed to evaluate new-customer behaviour, retention, and repeat-purchase dynamics through cohort analysis. Focusing on customers acquired in 2024, the solution combines ++automated data ingestion**, **cloud-based storage**, **scalable transformations**, and **curated analytics** to generate meaningful insights into customer engagement and long-term value.
+This project provides an end-to-end data pipeline and analytical framework designed to evaluate new-customer behaviour, retention, and repeat-purchase dynamics through cohort analysis. Focusing on customers acquired in 2024, the solution combines **automated data ingestion**, **cloud-based storage**, **scalable transformations**, and **curated analytics** to generate meaningful insights into customer engagement and long-term value.
 
 A **structured Databricks medallion architecture (bronze–silver–gold)** ensures data quality and analytical reliability throughout the process. **Raw data from BigQuery** is ingested into the bronze layer, refined into a clean and structured cohort dataset in silver, and curated into gold-layer analytical tables that enable detailed retention and repeat-purchase evaluations. These curated results are **visualized in a Databricks dashboard**, illustrating how customer behaviour evolves across monthly acquisition cohorts and providing clear visibility into customer lifecycle performance.
 
@@ -123,12 +123,11 @@ Recommendations include:
 
 ## 🗂️ Directory Structure
 
+```
 cohort-analysis/
 │
 ├── raw-data/
 │      ├──bronze_ecom_orders.csv
-│     
-├── sql_transformations/
 │
 ├── datasets/
 │      ├── silver_cohort_analysis.ipynb
@@ -142,7 +141,7 @@ cohort-analysis/
 ├── README.md
 │
 └── .gitignore
-
+```
 
 ## 🪪 License
 
