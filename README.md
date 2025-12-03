@@ -45,12 +45,14 @@ The Databricks transformation logic follows the standard medallion architecture:
 Clean raw data is imported from BigQuery into Databricks exactly as ingested by Fivetran, preserving source fidelity.
 
 - **Silver Layer – Refined Data**
-Data is standardized, and modeled using SQL to produce the `cohort_analysis` table, which forms the analytical foundation for subsequent calculations.
+Data is standardized, and modeled using SQL to produce the `cohort_analysis` table with **total_orders**, **first_order_date** and **second_order_date** which forms the analytical foundation for subsequent calculations.
 
 - **Gold Layer – Curated Analytics Tables**
 Final analytical datasets are generated for direct analysis and visualization, including:
-  - `retention_rate` – retention performance across cohorts
-  - `repeat_purchase_rates` – repeated purchase across cohorts
-  - `cohort_size` – size of each customer acquisition cohort
+  - `retention_rate` – retention performance within 1, 2 and 3 month across cohorts
+  - `repeat_purchase_rates` – repeated orders across cohorts
+  - `cohort_size` – number of customers for each cohort
  
+### **3. Curated Analytics & Dashboard Visualization**
 
+The final curated analytical tables are presented in a **Databricks dashboard**, enabling interactive exploration of how customer behaviour evolves across time and across cohorts.
