@@ -126,21 +126,18 @@ Recommendations include:
 etl-cohort-analysis/
 │
 ├── raw-data/
-│      ├── ecom_orders.csv
+│      ├──bronze_ecom_orders.csv
 │     
 ├── sql_transformations/
-│      ├── bronze_load.sql
-│      ├── silver_cohort_analysis.sql
-│      └── gold_retention_repeat_tables.sql
 │
 ├── datasets/
-│      ├── cohort_analysis.csv
-│      ├── retention_rate.csv
-│      ├── repeat_purchase_rates.csv
-│      └── cohort_size.csv
+│      ├── silver_cohort_analysis.ipynb
+│      └── gold_retention_rate.ipynb
+│      └── gold_repeat_purchase.ipynb
+│      └── gold_cohort_size.ipynb
 │
 ├── dashboard/
-│      └── databricks_dashboard.pdf
+│      └── databricks_dashboard.png
 │
 ├── README.md
 │
