@@ -56,3 +56,10 @@ Final analytical datasets are generated for direct analysis and visualization, i
 ### **3. Curated Analytics & Dashboard Visualization**
 
 The final curated analytical tables are presented in a **Databricks dashboard**, enabling interactive exploration of how customer behaviour evolves across time and across cohorts.
+
+
+## 📊 Visualization
+
+![Dashboard preview](
+
+
