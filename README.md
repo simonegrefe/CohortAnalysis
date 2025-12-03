@@ -126,7 +126,7 @@ Recommendations include:
 etl-cohort-analysis/
 │
 ├── raw-data/
-│      ├── raw_customers_2024.csv
+│      ├── ecom_orders.csv
 │     
 ├── sql_transformations/
 │      ├── bronze_load.sql
