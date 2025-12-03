@@ -121,9 +121,9 @@ Recommendations include:
 - Applying these findings to future onboarding strategies to improve early retention and accelerate the second purchase cycle.
 
 
+## 🗂️ Directory Structure
 
-
-etl-cohort-analysis/
+cohort-analysis/
 │
 ├── raw-data/
 │      ├──bronze_ecom_orders.csv
@@ -144,4 +144,7 @@ etl-cohort-analysis/
 └── .gitignore
 
 
+## 🪪 License
+
+This project is licensed for **educational and demonstration purposes only**. All data used is **fictional** and does not represent real business information.
 
