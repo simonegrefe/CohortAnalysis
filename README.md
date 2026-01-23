@@ -62,11 +62,11 @@ The final curated analytical tables are presented in a **Databricks dashboard**,
 
 ## 🔍 Key Takeaways
 
-### 1. Strong Retention in Later Cohorts 
+### 1. May and June 2024 have the strongest retention within 3 months 
 
-- Later cohorts, particularly **April to June**, exhibit **very strong retention performance**.
-- The **June cohort** stands out with a **100% retention rate across every time threshold**, making it the strongest-performing cohort overall.
-- There is a **notable upward trend in short-term customer retention** when comparing early to later cohorts. The **January cohort** shows a relatively weak repeat-purchase rate of **59% in the first month** while **all customers in the June cohort made a second purchase within a short time**, indicating exceptionally high early engagement.
+- **Retention improves for later cohorts**, especially within **2 and 3 months**.
+- **3-month retention** is consistently the **strongest metric**, showing many customers **need more than 30 days to return**. 
+- **May-June cohorts** show exceptionally **strong long-term retention**. This likely effects either small cohort sizes or highly motivated customers.
 
 ### 2. Repeat-Purchase Behaviour Depends on Both Time and Order Frequency
 
@@ -84,7 +84,7 @@ The final curated analytical tables are presented in a **Databricks dashboard**,
 
 ### 1. Extend the Cohort Analysis Across Multiple Years
 
-To better understand the significant acquisition drop after July and the exceptional short-term retention of the May and June cohorts, a **multi-year cohort analysis** (ideally at least 3 years) should be conducted. This broader time window will help determine:
+To better understand the significant acquisition drop after July and the strong medium-term (2-3 month)retention of the May and June cohorts, a **multi-year cohort analysis** (ideally at least 3 years) should be conducted. This broader time window will help determine:
 
 - Whether the acquisition decline is **structural, seasonal, or campaign-related**.
 - Whether the unusually **strong 1-month retention in the May/June cohorts has occurred in past years** or was triggered by specific **promotions, market conditions, or seasonal behaviour**.
@@ -98,7 +98,7 @@ Recommended measures include:
 
 - **Increased marketing spend** during historically weak periods.
 - **Targeted campaigns** aimed at revitalizing acquisition momentum.
-- **Promotional incentives** such as discounts for second purchases to encourage early engagement and repeat behaviour.
+- **Promotional incentives** such as discounts for second purchases to encourage early engagement and repeat behavior.
 
 ### 3. Invest Strategically in New Customer Acquisition
 
@@ -111,10 +111,10 @@ Strategic acquisition efforts should focus on:
 
 ### 4. Leverage High-Performing Cohorts to Improve Onboarding & Engagement
 
-Early 2024 cohorts (January–March) and the high-performing later cohorts (May–June) exhibit distinct behavioural patterns that can be used to optimize the onboarding process.
+Early 2024 cohorts (January–March) and the high-performing later cohorts (May–June) exhibit distinct behavioral patterns that can be used to optimize the onboarding process.
 Recommendations include:
 
-- Analysing touchpoints, communications, and promotions that contributed to the strong early behaviour in the May/June cohorts.
+- Analysing touchpoints, communications, and promotions that contributed to the strong behavior within 2 and 3 months of the late cohorts.
 - Applying these findings to future onboarding strategies to improve early retention and accelerate the second purchase cycle.
 
 
