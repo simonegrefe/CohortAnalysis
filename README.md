@@ -57,7 +57,7 @@ The final curated analytical tables are presented in a **Databricks dashboard**,
 
 ## 📊 Visualization
 
-![Dashboard preview](databricks_dashboard.png)
+![Dashboard preview](Dashboard.png)
 
 
 ## 🔍 Key Takeaways
