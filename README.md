@@ -1,4 +1,4 @@
-# 🔗 ETL & Cohort Analysis 
+# 🔗 Customer Cohort Analysis for Retention
 
 ## 🧾 Project Overview
 
